@@ -1,13 +1,13 @@
 html {
   --section-background-color: linear-gradient(
     to top right,
-    #fff4d5,
+    	#ffd7b5,
     #ffca2957
   );
 
   --image-gradient: linear-gradient(
     to top right,
-    #fff4d5,
+    	#ffd7b5,
     #ffca2957
   );
 
@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #FFF4D5;
+  background-color: 	#ffd7b5;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -76,9 +76,9 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #FFF4D5 !important;
+  background-color: 	#ffd7b5 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px #FFF4D5!important;
+  box-shadow: 0px 10px 10px 0px 	#ffd7b5!important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -151,7 +151,7 @@ button:focus {
   }
 }
 .navbar-brand {
-  color: #FFF4D5 !important;
+  color: 	#ffd7b5 !important;
 }
 
 .logo {
@@ -395,14 +395,14 @@ button:focus {
 }
 
 .icon-colour {
-  color: #FFF4D5 !important;
+  color: 	#ffd7b5 !important;
 }
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: #FFF4D5;
+  background-color: 	#ffd7b5;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;

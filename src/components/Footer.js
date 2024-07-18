@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -13,10 +11,10 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="3" className="footer-copywright">
+        <Col md="4" className="footer-copywright">
           <h3>Copyright © {year}</h3>
         </Col>
-        <Col md="3" className="footer-body">
+        <Col md="4" className="footer-body">
           <ul className="footer-icons">
             {/* <li className="social-icons">
               <a
@@ -30,18 +28,18 @@ function Footer() {
             </li> */}
             <li className="social-icons">
               <a
-                href="https://twitter.com"
-                style={{ color: "white" }}
+                href="https://www.facebook.com/profile.php?id=100014968112059"
+                style={{ color: "black" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <FaFacebook />
               </a>
             </li>
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/krushnasharma05"
-                style={{ color: "white" }}
+                style={{ color: "black" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -51,7 +49,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/s_rakhi01"
-                style={{ color: "white" }}
+                style={{ color: "black" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
