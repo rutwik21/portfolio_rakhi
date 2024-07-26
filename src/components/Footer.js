@@ -3,7 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 function Footer() {
   let date = new Date();
@@ -25,7 +26,7 @@ function Footer() {
               >
                 <AiFillGithub />
               </a>
-            </li> */}
+            </li> 
             <li className="social-icons">
               <a
                 href="https://www.facebook.com/profile.php?id=100014968112059"
@@ -34,6 +35,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaFacebook />
+              </a>
+            </li>*/}
+            <li className="social-icons">
+              <a
+                href="mailto:krushnasharma05@gmail.com"
+                style={{ color: "black" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiGmail />
               </a>
             </li>
             <li className="social-icons">
@@ -48,7 +59,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/s_rakhi01"
+                href="https://www.instagram.com/krushnasharmaofficial"
                 style={{ color: "black" }}
                 target="_blank" 
                 rel="noopener noreferrer"

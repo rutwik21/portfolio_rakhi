@@ -17,6 +17,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Pricing from "./components/Pricing/Pricing";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -41,7 +42,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/customers" element={<Resume />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Route path="/contact" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>

@@ -117,7 +117,7 @@ function NavBar() {
                 to="/contact"
                 className="fork-btn-inner"
               >
-                Hire me
+                Contact me
               </Button>
             </Nav.Item>
           </Nav>

@@ -10,7 +10,7 @@ import video6 from "../../Assets/Projects/6.MP4";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="mt-5 pt-5">
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>

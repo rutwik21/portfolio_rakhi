@@ -7,7 +7,28 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <i><b className="purple">Krushna Sharma </b></i>
+            With a passion for both technology and creativity, 
+            <br />
+            I specialize in transforming your digital vision into reality. 
+            <br />
+            As a seasoned <i><b className="purple">Social Media Manager</b></i>, I create engaging strategies 
+            <br />
+            that boost your online presence and drive results. 
+            <br />
+            My expertise as a <i><b className="purple">Web Developer</b></i> ensures that your website is not 
+            <br />
+            only visually appealing but also highly functional and user-friendly.
+            <br />
+            <br />
+            Combining these skills with a knack for innovative problem-solving, 
+            <br />
+            I provide tailored solutions that make your brand stand out in 
+            <br />
+            the crowded digital landscape. 
+            <br />
+            Let's collaborate to make your online presence unforgettable!
+
+            {/* Hi Everyone, I am <i><b className="purple">Krushna Sharma </b></i>
             a versatile <i><b className="purple">Virtual Assistant</b></i>
             <br />
             ready to elevate your business. I specialize in transforming chaos into clarity, 
@@ -30,19 +51,8 @@ function AboutCard() {
             <br />
             Ready to streamline your operations and take your business to new heights? 
             <br />
-            <i><b className="purple">Let’s connect</b></i> and achieve your goals together.
+            <i><b className="purple">Let’s connect</b></i> and achieve your goals together. */}
           </p>
-          {/* <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul> */}
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}

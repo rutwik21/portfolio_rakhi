@@ -3,6 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import main from "../../Assets/main.png";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Services from "../Services/Services";
+import Projects from "../Projects/Projects";
+import Pricing from "../Pricing/Pricing";
+import Contact from "../Contact/Contact";
 
 function Home() {
   return (
@@ -32,14 +36,18 @@ function Home() {
               <img
                 src={main}
                 alt="home pic"
-                className="img-fluid"
-                style={{  marginTop: "-40px" }}
+                className="img-fluid h-full w-full"
+                style={{  marginTop: "-50px" }}
               />
             </Col>
           </Row>
         </Container>
       </Container>
       <Home2 />
+      <Services />
+      <Projects />
+      <Pricing />
+      <Contact id="contact"/>
     </section>
   );
 }

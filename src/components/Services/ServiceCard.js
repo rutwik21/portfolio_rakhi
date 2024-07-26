@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 
 function ServiceCard(props) {
   return (
-    <Card className="project-card-view">
+    <Card className="project-card-view bg-white bg-opacity-25 shadow-none">
       <Card.Body>
         <Card.Title className="fw-bold border-bottom border-dark pb-2">{props.title}</Card.Title>
         <Card.Text>
